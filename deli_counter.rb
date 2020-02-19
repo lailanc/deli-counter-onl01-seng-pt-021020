@@ -22,5 +22,11 @@ def now_serving(array)
   else
     puts "Currently serving #{array[0]}."
     array.shift
+    
+    
+    
+    
+    x.each.with_index(1) do |name, index|
+      line_array.push("#{index}. #{name}")
   end
 end
